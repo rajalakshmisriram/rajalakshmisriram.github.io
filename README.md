@@ -37,11 +37,6 @@ The website includes the following sections:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Thank you to all my mentors, teachers, and peers who have supported me throughout my journey.
-- Special thanks to the open-source community for providing the tools and resources to create this website.
-
 ---
 
 © 2024 Rajalakshmi Sriram. All rights reserved.
