@@ -3,98 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Rajalakshmi Sriram's Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap">
     <style>
-        /* Reset default margin and padding */
-        * {
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            background: #f4f4f4;
+            color: #333;
         }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #004e9d; /* Dark blue background */
-        }
-
-        .navbar {
-            background-color: #ADD8E6; /* Light blue background for the navbar */
-            padding: 20px 0;
-        }
-
-        .navbar nav ul {
-            list-style: none;
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 2rem 0;
             text-align: center;
         }
-
-        .navbar nav ul li {
-            display: inline-block;
-            margin-right: 20px;
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
         }
-
-        .navbar nav ul li:last-child {
-            margin-right: 0;
+        nav {
+            margin: 1rem 0;
         }
-
-        .navbar nav ul li a {
-            color: #000000;
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
             text-decoration: none;
-            font-size: 18px;
             font-weight: bold;
         }
-
-        .container {
+        nav ul li a:hover {
+            color: #e0e0e0;
+        }
+        section {
+            padding: 2rem;
+            background: #fff;
+            margin: 2rem auto;
             max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff; /* White background for the container */
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .profile {
+        section h2 {
+            color: #4CAF50;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+        section ul li {
+            margin-bottom: 1rem;
+        }
+        footer {
             text-align: center;
-            margin-bottom: 30px;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
         }
-
-        .profile img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 5px solid #fff;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .about-me {
-            color: #333; /* Dark gray text color */
-            line-height: 1.6;
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <header class="navbar">
+    <header>
+        <h1>Rajalakshmi Sriram</h1>
         <nav>
             <ul>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="licenses-certifications.html">Licenses & Certifications</a></li>
-                <li><a href="volunteering.html">Volunteering</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="publications-awards.html">Publications & Awards</a></li>
-                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#awards">Awards & Honors</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <main class="container">
-        <section class="profile">
-            <img src="your-photo.jpg" alt="Your Photo">
-        </section>
-        
-        <section class="about-me">
-            <h2>About Me</h2>
-            <p>I'm a freshman at Stanford Online High School, and I have an extreme passion for neuroscience. My education in many institutions mainly in science and mathematics has supported my passion for STEM. I have experience as an intern in Rice University's precollege program where I focused on Physiology and as an intern at Medical Immersion Spring Academy, where I had the opportunity to gain 5 medical certifications listed in the certification section. Adding on, my experience as the cofounder of Gift Cure, an NPO, founder of Brain Atlas Youtube Channel, and Staff Writer at my high school's newspaper has shaped me to be a responsible leader, an organized person, and a fluent speaker. I not only have experience in science and math, but also have covered LaTeX and basics of Python in middle school. My most notable achievement is a research paper I wrote on various ways to restore myelin sheath in Multiple Sclerosis and other demyelinating diseases.</p>
-        </section>
-    </main>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I'm a freshman at Stanford Online High School, and I have an extreme passion for neuroscience. My love for the unknown has led me to medicine and neuroscience. I plan to major in pre-med and neuroscience and become a neurologist. My other interests include physics, organic chemistry, herbal medicine, and genetics.</p>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Stanford Online High School - Student Government Member</strong><br>Apr 2024 - PRESENT<br>Part of the Board of Mental Health in student government in my school.</li>
+            <li><strong>Stanford Online High School - Staff Writer at OHS Observer Club</strong><br>Sep 2023 - PRESENT</li>
+            <li><strong>Gift Cure - Co-Founder</strong><br>2023 - PRESENT<br>An NPO aimed at providing the underprivileged money to buy medications through the collection of donations.<br><a href="https://giftcurestarttoday.wixsite.com/home" target="_blank">Our Website</a><br><a href="https://discord.gg/eFPTU9BK3n" target="_blank">Our Volunteering Group</a></li>
+            <li><strong>Brain Atlas Youtube Channel - Founder</strong><br>2021 - PRESENT</li>
+            <li><strong>Medical Immersion Spring Academy (MISA) at Mentoring in Medicine & Science (MIMS), Oakland, CA - Student Intern</strong><br>Mar 2024 - Mar 2024<br>Trained in Teen Mental Health First Aid, Advanced Bleeding Control, Splinting, Phlebotomy, Blood-borne Pathogens, CPR/AED, First Aid, and Suturing.</li>
+            <li><strong>Gifted Gabber - Research Intern</strong><br>Dec 2023 - Feb 2024<br>Independently wrote a research paper on various ways to restore myelin in demyelinating disorders and Gifted Gabber reviewed it.</li>
+            <li><strong>Rice University Pre-College Program - Student Intern</strong><br>Dec 2023 - Dec 2023</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Stanford Online High School</strong><br>Aug 2023 - Jun 2027<br>GPA: 4.0<br>Activities and societies: Neuroscience Club, OHS Observer Club, Biology Olympiad Club, Chemistry Olympiad Club, OHS Math Competition Club</li>
+            <li><strong>UC Berkeley ATDP</strong><br>2022<br>Grade: A+</li>
+            <li><strong>Johns Hopkins Center for Talented Youth (CTY)</strong><br>2021<br>Grade: A+<br>Activities and societies: High School Math Competition Club</li>
+            <li><strong>Art of Problem Solving</strong><br>2019<br>Grade: A+</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Leadership</li>
+            <li>Collaborative Problem Solving</li>
+            <li>Peer Tutoring</li>
+            <li>Teamwork</li>
+            <li>Critical Thinking</li>
+            <li>Application Development</li>
+            <li>Organization Skills</li>
+            <li>Research Skills</li>
+            <li>Creative Problem Solving</li>
+            <li>Creative Writing</li>
+            <li>Physiology</li>
+        </ul>
+    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><a href="https://ohsobserver.com/how-to-turn-tourettes-tics-into-creative-expressions/" target="_blank">How to Turn Tourette’s Tics into Creative Expressions</a><br>Apr 5, 2024<br>OHS Observer</li>
+            <li><a href="https://ohsobserver.com/remyelination-the-key-to-treating-neurodegenerative-diseases/" target="_blank">Remyelination: The Key to Treating Neurodegenerative Diseases?</a><br>Nov 2, 2023<br>OHS Observer</li>
+            <li>Various Ways to Restore the Myelin Sheath: A Therapeutic Strategy for Demyelinating Diseases<br>Hasn’t been published just yet…</li>
+        </ul>
+    </section>
+    <section id="courses">
+        <h2>Courses</h2>
+        <ul>
+            <li><strong>Biology</strong>
+                <ul>
+                    <li>Diagnosis: Be the Doctor - Associated with Johns Hopkins Center For Talented Youth (CTY)</li>
+                    <li>Life Science - Associated with Johns Hopkins Center For Talented Youth (CTY)</li>
+                    <li>Physiology: The Foundations of Medicine - Associated with Rice University Pre-College Program</li>
+                </ul>
+            </li>
+            <li><strong>Chemistry</strong>
+                <ul>
+                    <li>AP Chemistry - Associated with Stanford Online High School</li>
+                    <li>Introduction to Forensic Science - Associated with Johns Hopkins Center For Talented Youth (CTY)</li>
+                </ul>
+            </li>
+            <li><strong>Physics</strong>
+                <ul>
+                    <li>AP Physics 1 - Associated with Art of Problem Solving</li>
+                </ul>
+            </li>
+            <li><strong>Mathematics</strong>
+                <ul>
+                    <li>AP Calculus AB - Associated with Stanford Online High School</li>
+                    <li>Mathcounts & AMC 8 Basics - Associated with Art of Problem Solving</li>
+                    <li>Precalculus - Associated with Art of Problem Solving</li>
+                    <li>Counting & Probability - Associated with Art of Problem Solving</li>
+                    <li>Number Theory - Associated with Art of Problem Solving</li>
+                    <li>Algebra 1 - Associated with Art of Problem Solving</li>
+                    <li>Pre-Algebra - Associated with Art of Problem Solving</li>
+                </ul>
+            </li>
+            <li><strong>English</strong>
+                <ul>
+                    <li>The Writing Process - Associated with UC Berkeley ATDP</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="awards">
+        <h2>Awards & Honors</h2>
+        <ul>
+            <li>Advanced CTY-Level / High Honors<br>Issued by Johns Hopkins Center For Talented Youth · Jan 2024<br>Accepted into Advanced CTY Level in 9th grade for being 4 grade levels advanced by taking SCAT.</li>
+            <li>MOEMS Highest Individual Score Award<br>Issued by MOEMS · Apr 2023</li>
+            <li>AMC 8 Top 5%<br>Issued by Mathematical Association of America · Feb 2023</li>
+            <li>1st place Perennial Math Contest winner<br>Issued by Perennial Math Contest · Jan 2023</li>
+            <li>Brain Bee National Finalist<br>Issued by NorthSouth Foundation · Apr 2022</li>
+            <li>Noetic Math League Top 10% - 5 times<br>Issued by Noetic Math League · Feb 2022<br>5 times - 2018-2022</li>
+            <li>Bronze Medal Internationally in Canadian Math Contest<br>Issued by Canadian Math Contest · Jan 2022</li>
+            <li>Math Kangaroo Nationally placed 4th<br>Issued by Math Kangaroo · May 2019</li>
+        </ul>
+    </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>English - Native or bilingual proficiency</li>
+            <li>Tamil - Native or bilingual proficiency</li>
+            <li>Sanskrit - Limited working proficiency</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Phone: (669) 291-6331</li>
+            <li>Email: <a href="mailto:rajalakshmisriram07@gmail.com">rajalakshmisriram07@gmail.com</a></li>
+            <li>Address: 33137 Lake Superior Place, Fremont, CA, 94555</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rajalakshmi Sriram. All rights reserved.</p>
+        <p><a href="https://github.com/your-username/your-repo" target="_blank">GitHub Repository</a></p>
+    </footer>
 </body>
 </html>
